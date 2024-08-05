@@ -1,37 +1,23 @@
-/* Styles de base pour les onglets et le contenu */
-body {
-    font-family: Arial, sans-serif;
+ul#lista-ho li{
+    display: inline-block;
 }
 
-.tabs {
-    overflow: hidden;
-    background-color: #f1f1f1;
+ul#lista-ho li a{
+    color: whitesmoke;
+    font-size: 1.2em;
+    padding: 4px 10px;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px 1px #181818;
+    text-shadow: 1px 1px 3px #181818;
+    text-decoration: none;
+    background: radial-gradient(circle, rgba(147,143,143,1) 16%, rgba(115,114,114,1) 78%);	
 }
 
-.tab-button {
-    background-color: inherit;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: background-color 0.3s;
+ul#lista-ho li a:hover{
+    background: radial-gradient(circle, rgba(113,108,108,1) 16%, rgba(87,86,86,0) 78%);	
 }
 
-.tab-button:hover {
-    background-color: #ddd;
-}
-
-.tab-button.active {
-    background-color: #ccc;
-}
-
-.tab-content {
-    display: none;
-    padding: 20px;
-    border-top: none;
-}
-
-/* Optionnel: pour un look plus moderne */
-.tab-button.active {
-    border-bottom: 2px solid #4CAF50;
+#menu1{
+    text-align: center;
 }
